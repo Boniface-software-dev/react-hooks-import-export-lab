@@ -1,4 +1,5 @@
 import React from "react";
+import { username, city } from "../data/user.js"
 
 function Home() {
   return (
@@ -9,3 +10,8 @@ function Home() {
     </div>
   );
 }
+/**
+ * The Home component serves as the main landing page of the application.
+ * It is exported as the default export of this module.
+ */
+export default Home;
